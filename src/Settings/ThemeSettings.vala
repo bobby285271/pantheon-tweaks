@@ -29,7 +29,7 @@ public class PantheonTweaks.ThemeSettings {
         var themes = new Gee.ArrayList<string> ();
 
         string[] dirs = {
-            "/usr/share/" + path + "/",
+            "/run/current-system/sw/share/" + path + "/",
             Environment.get_home_dir () + "/." + path + "/",
             Environment.get_home_dir () + "/.local/share/" + path + "/"};
 
